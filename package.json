@@ -1,0 +1,17 @@
+{
+  "name": "persianas-zambrana-demo",
+  "version": "1.0.0",
+  "description": "Demo landing page para Persianas Zambrana en Málaga",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -o"
+  },
+  "keywords": [
+    "persianas",
+    "landing-page",
+    "malaga",
+    "demo"
+  ],
+  "author": "Persianas Zambrana",
+  "license": "ISC"
+}
