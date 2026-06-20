@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <!-- Stylized Blind Lines in Background -->
+  <g opacity="0.1">
+    <line x1="100" y1="100" x2="700" y2="100" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+    <line x1="100" y1="150" x2="700" y2="150" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+    <line x1="100" y1="200" x2="700" y2="200" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+    <line x1="100" y1="250" x2="700" y2="250" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+    <line x1="100" y1="300" x2="700" y2="300" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+    <line x1="100" y1="350" x2="700" y2="350" stroke="#ffffff" stroke-width="10" stroke-dasharray="15 10" />
+  </g>
+
+  <!-- Decorative Yellow Frame Segment -->
+  <path d="M 40 80 L 40 40 L 80 40" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 760 80 L 760 40 L 720 40" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 40 520 L 40 560 L 80 560" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 760 520 L 760 560 L 720 560" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Central Badge Shadow & Background -->
+  <circle cx="400" cy="250" r="110" fill="#131e35" stroke="rgba(250, 204, 21, 0.1)" stroke-width="8" />
+  <circle cx="400" cy="250" r="95" fill="#1b2845" />
+
+  <!-- Ribbon/Belt Roll Icon -->
+  <g transform="translate(365, 215) scale(2.8)" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="8" />
+    <circle cx="12" cy="12" r="5" />
+    <path d="M12 12v-8M12 12l5.65 5.65" />
+    <path d="M4 12h16" stroke-dasharray="2 2" />
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="430" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+    CAMBIO DE CINTA Y RECOGEDOR
+  </text>
+  <text x="400" y="475" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#facc15" text-anchor="middle" letter-spacing="3">
+    PERSIANAS ZAMBRANA • MÁLAGA
+  </text>
+  <text x="400" y="510" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Sustitución de Cintas Desgastadas y Recogedores sin Tensión
+  </text>
+</svg>
