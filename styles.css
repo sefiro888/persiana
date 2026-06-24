@@ -57,6 +57,12 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
+.text-highlight {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+
 /* 2. PRELOADER Y ANIMACIÓN DE LA PERSIANA A PANTALLA COMPLETA */
 .preloader {
   position: fixed;
